@@ -40,7 +40,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             ListaDeExerciciosTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Pergunta1(
+                    exibirResultado(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
